@@ -1,0 +1,156 @@
+/* .parent{
+    display: grid;
+    grid-template-columns: 50px 50 50 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-columns: 50px 75px 50px;
+
+    background-color: aliceblue;
+     row-gap: 10px;
+     column-gap: 10px;
+}
+  
+ .child {
+    background-color: yellow;
+     
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: red;
+}
+  
+.menu{
+     grid-row-start: 2;
+     grid-row-end: 4;
+}
+.footer{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+ .parent1{
+     border:7px solid black;
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr ;
+     grid-template-rows:75px 50px 50px
+      ;
+
+
+ }
+
+  */
+  /* .parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+  }
+    .child{
+        background-color: beige;
+        border: ;
+    } */
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     body{
+         min-height: 100vh;
+         min-width: 100vw;
+         background-color: rgb(44, 172, 68);
+     }
+       .parent{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+
+        position: absolute;
+        top: 20px;
+
+       } */
+       /* .parent{
+         transition-property: height,width;
+         transition-duration: 1s;
+         transition-timing-function: linear;
+
+
+
+        background-color: blueviolet;
+        color: 400px; 
+        width: 400px;
+        text-align: center;
+        padding: 16px;
+
+        h2{
+            height: 75px;
+        }
+       }
+        @media(800px<=width){
+            .parent{
+                background-color: blue;
+
+            }
+
+        } */
+
+        /* button{
+            position: absolute;
+            top: 50%;
+            left:50%;
+
+            padding: 8px 16px;
+            font-size: 24px;
+            border: none;
+            border-radius: 8px;
+
+             transition-property: scale;
+             transition-timing-function: ease-in-out;
+             transition-duration: 300ms;
+
+        }
+           button:hover{
+            background-color: yellowgreen;
+            padding: 30px;
+            scale: 1.1;
+            
+            
+          }  */
+            
+          /* button{
+            scale: 2;
+            position: absolute;
+
+            top: 20px;
+            left: 20;
+
+            animation-name: button;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: 3;
+          }
+            @keyframes button {
+
+                0%{
+                top: 20px;
+                left: 200px;
+                }
+
+                30%{
+                    top: 20px;
+                    left: 500px;
+                }
+                 60%{
+                    top: 400px; left: 500px;
+                 }
+                 100%{
+                    top: 400px; left: 40px;
+                 } */
+              .parent{
+                display: flex;
+                font-size: 30px;
+              }
+
+            
